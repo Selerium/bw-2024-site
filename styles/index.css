@@ -1,0 +1,142 @@
+nav {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+
+	height: 125px;
+	width: 80vw;
+	justify-content: space-between !important;
+}
+
+.links {
+	width: fit-content;
+	gap: 2rem;
+}
+
+#hero {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#hero .center {
+	width: 40%;
+	justify-content: flex-start;
+}
+
+#hero img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-height: 1000px;
+	max-width: 1000px;
+	height: auto;
+	width: 50vw;
+}
+
+#about-bw {
+	background-color: var(--green);
+	width: 100vw;
+	height: 100vh;
+
+	color: white;
+}
+
+#details {
+	background-color: #424242;
+	width: 100vw;
+	height: 100vh;
+	
+	color: white;
+}
+
+#theme .window {
+	flex-wrap: wrap;
+}
+
+#theme img {
+	width: 40%;
+	height: auto;
+}
+
+#speakers {
+	background-color: var(--green);
+	width: 100vw;
+	height: 100vh;
+	padding: 0 10vw;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+
+	color: white;
+}
+
+#speakers .heading {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.images {
+	width: 45%;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.speaker-info {
+	width: 55%;
+}
+
+#speakers ion-icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+}
+
+#speakers .special {
+	width: 100vw;
+	text-align: left;
+}
+
+#activities {
+	background-color: #424242;
+	width: 80vw;
+	height: 100vh;
+}
+
+.info-split .window {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.info-split .info {
+	width: 50%;
+}
+
+.box-para {
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	padding: 1.5rem 2rem;
+}
+
+.info-split img {
+	height: 550px;
+	width: auto;
+}
+
+.sub-info {
+	width: 46%;
+}
+
+.sub-info h2 {
+	width: 100%;
+	text-align: center;
+
+	border-radius: 2rem;
+	padding: 1rem 2rem;
+	background-color: var(--green);
+	color: white;
+}

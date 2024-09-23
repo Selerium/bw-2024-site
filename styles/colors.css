@@ -1,0 +1,9 @@
+@property --green {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: #1e8b44;
+}
+
+.green {
+	color: var(--green);
+}

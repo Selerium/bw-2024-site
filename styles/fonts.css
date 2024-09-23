@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'urbanist';
+	font-style: normal;
+	font-optical-sizing: auto;
+	src: url('/fonts/urbanist/urbanist.ttf');
+}
+
+@font-face {
+	font-family: 'urbanist';
+	font-style: italic;
+	font-optical-sizing: auto;
+	src: url('/fonts/urbanist/urbanist-italic.ttf');
+}
+
+h1, h2, h3, h4, h5, a, p {
+	z-index: 10;
+}
+
+h1 {
+	margin: 0;
+	text-align: left;
+	width: 100%;
+
+	font-size: 128px;
+}
+
+h2 {
+	margin: 0;
+}
+
+p {
+	font-weight: 500;
+	font-size: 24px;
+	text-align: justify;
+}
