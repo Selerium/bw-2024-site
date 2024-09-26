@@ -13,17 +13,30 @@
 	<body class="center col">
 		<nav class="center">
 			<a href="/"><img src="images/bw-logo.png"></a>
-			<div class="links center">
+			<div class="links center web-nav">
 				<a href="#about-bw">About BW</a>
 				<a href="#details">Event Details</a>
 				<a href="#theme">Theme</a>
 				<a href="#speakers">Speakers</a>
 				<a href="#activities">Activities</a>
 				<a href="#students">Students</a>
-				<a href="#registration">Registration</a>
 				<a href="#about-us">About Us</a>
+				<a href="#links">Registration</a>
 			</div>
+			<ion-icon name="menu-outline" onclick="openMenu()"></ion-icon>
 		</nav>
+
+		<div class="links center mob-nav">
+			<ion-icon name="close-outline" onclick="openMenu()"></ion-icon>
+			<a onclick="openMenu()" href="#about-bw">About BW</a>
+			<a onclick="openMenu()" href="#details">Event Details</a>
+			<a onclick="openMenu()" href="#theme">Theme</a>
+			<a onclick="openMenu()" href="#speakers">Speakers</a>
+			<a onclick="openMenu()" href="#activities">Activities</a>
+			<a onclick="openMenu()" href="#students">Students</a>
+			<a onclick="openMenu()" href="#about-us">About Us</a>
+			<a onclick="openMenu()" href="#links">Registration</a>
+		</div>
 
 		<div id="hero" class="window">
 			<div class="center col">
@@ -115,39 +128,129 @@
 					<p>Frank's been the go-to guru for teens in the UAE since 2011, masterfully guiding them through the wild ride of becoming young adults! He’s all about sparking those dreams while sprinkling in some good ol' Gospel inspiration. Talk about a motivational leader!</p>
 				</div>
 			</div>
+			<div class="speaker-info-small">
+				<div class="speaker">
+					<img src="images/chris-allen.png">
+					<div class="heading">
+						<h2>Chris Allen, Co-Ordinator for Alpha Youth Gulf</h2>
+					</div>
+					<p>Chris hails from the UK but has been soaking up the sun in the Middle East for nearly ten years! With a treasure trove of experience in youth projects, he's on a mission to craft spaces where the next generation can be recharged, grounded, and ready to shine bright!</p>
+				</div>
+				<div class="speaker">
+					<img src="images/arno-alajoki.png">
+					<div class="heading">
+						<h2>Arno Alajoki, Director of Youth Unlimited / UAEYFC</h2>
+					</div>
+					<p>Arno hails from the snowy wonderland of Finland and rocks the title of National Director of UAE YFC! With a heart full of passion, he’s on a mission to help young folks uncover their life’s purpose and unleash their inner talents. A lifelong learner at heart, he can’t resist sharing all the  knowledge he picks up along the way!</p>
+				</div>
+				<div class="speaker">
+					<img src="images/elizabeth-shahada.png">
+					<div class="heading">
+						<h2>Elizabeth Shehata, Young Adults Ministry Leader at Fellowship Dubai</h2>
+					</div>
+					<p>Meet Elizabeth, an Aussie-Egyptian with a degree in international business and corporate experience. Now focused on uplifting youth, she uses her event-planning skills to inspire young adults to live purposefully. In her free time, she enjoys table tennis, basketball, clean comedy, and puzzles!</p>
+				</div>
+				<div class="speaker">
+					<img src="images/frank-meyer.png">
+					<div class="heading">
+						<h2>Frank Meyer, Youth Ministry Pastor at Fellowship Dubai</h2>
+					</div>
+					<p>Frank's been the go-to guru for teens in the UAE since 2011, masterfully guiding them through the wild ride of becoming young adults! He’s all about sparking those dreams while sprinkling in some good ol' Gospel inspiration. Talk about a motivational leader!</p>
+				</div>
+			</div>
 		</div>
 
 		<div id="activities" class="center col">
 			<div class="main-info">
-				<img src="images/speaking-outside.png">
-				<div class="text">
+				<img src="images/girl-standing.png">
+				<div class="text center col">
 					<h1>Additional Activities</h1>
+					<img src="images/girl-standing.png">
 					<p>Big Weekend encompasses more than just engaging in gospel-inspired discussions; it also fosters meaningful conversations among teenagers through dialogue, various activities, and enjoyable fellowship.</p>
-					<a class="link-button"><ion-icon name="play"></ion-icon>Click to check out the venue!</a>
+					<a class="link-button"><ion-icon name="play"></ion-icon><h3>Big Weekend 2024 Promo Video!</h3></a>
 				</div>
 			</div>
 			<div class="cards">
-				<div class="card">
+				<div class="card center col">
 					<h2>Small Groups</h2>
 					<p>It is time for teenagers to reflect on and analyze what they have learned from the main sessions.</p>
 				</div>
-				<div class="card">
+				<div class="card center col">
 					<h2>Devotional Time</h2>
 					<p>Teenagers will be encouraged to participate in worship,  spend time in quiet reflection through prayer.</p>
 				</div>
-				<div class="card">
+				<div class="card center col">
 					<h2>Senior Teens</h2>
-					<p>This year, we are launching a new program specifically designed for graduating teenagers.</p>
+					<p>This year, we are launching a new program designed for graduating teenagers.</p>
 				</div>
-				<div class="card">
+				<div class="card center col">
 					<h2>Fun & Games</h2>
-					<p>Icebreakers and themed team-building games can effectively promote fellowship among teenagers.</p>
+					<p>Icebreakers and themed team-building games that promote fellowship among teenagers.</p>
 				</div>
 			</div>
 		</div>
 
+		<div id="students" class="center">
+			<div class="left center col">
+				<h1>Student Wellbeing</h1>
+				<div class="sub-info">
+					<h2>Student Safety</h2>
+					<p>We will have youth leaders in place to supervise the students throughout the event, ensuring that everyone is cared for and safe. Additionally, a safeguarding officer will be present, and the hotel staff are certified in first aid.</p>
+				</div>
+				<a class="link-button small-link-button"><ion-icon name="shield-checkmark-outline"></ion-icon>Safeguarding Policy for Big Weekend 2024</a>
+			</div>
+			<div class="right center col">
+				<img src="images/game-and-metrics.png">
+				<div class="lower center">
+					<img src="images/students-praying.png">
+					<div class="sub-info">
+						<h2>Student Experience</h2>
+						<p>Each year the students who come say that this has been a highlight of the year for them. Making new friends, deepening their faith and being part of the bigger group has been significant for the students in the previous events.</p>
+						<a class="link-button"><ion-icon name="play"></ion-icon>Big Weekend 2023 Highlight Video.</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div id="about-us" class="center">
+			<img src="images/solving-puzzle.png">
+			<div class="center col">
+				<h1>About Youth Unlimited</h1>
+				<div class="sub-info">
+					<h2>Who we are + why we do what we do</h2>
+					<p>Youth Unlimited serves as the community arm of UAE Youth for Christ, which is affiliated with the global Youth for Christ (YFC) movement. Our mission is to promote initiatives that disseminate the Christian faith among young people in the UAE through evangelism, discipleship, and leadership training.</p>
+				</div>
+			</div>
+		</div>
 
+		<div id="links" class="center">
+			<img src="images/random-pics.png">
+			<div class="right center col">
+				<h1>Key Links</h1>
+				<div class="section center">
+					<h2>Registration</h2>
+					<a href="link-button">Registration for Students</a>
+					<a href="link-button">Registration for Leaders</a>
+					<a href="link-button">Release Form (Students)</a>
+					<a href="link-button">Release Form (Leaders)</a>
+				</div>
+				<div class="section center">
+					<h2>Information</h2>
+					<a href="link-button">BW2023 Highlight Video</a>
+					<a href="link-button">BW2024 Promo Video</a>
+					<a href="link-button">Venue for BW2024</a>
+					<a href="link-button">Safeguarding Policy</a>
+				</div>
+			</div>
+		</div>
+
+		<footer class="center">
+			<img src="images/bw-logo.png">
+			<a href="" class="small-link-button"><ion-icon name="logo-instagram"></ion-icon>&nbsp;@eyunlimited</a>
+			<a href="" class="small-link-button"><ion-icon name="globe-outline"></ion-icon>&nbsp;eyu.ae/bigweekend</a>
+		</footer>
+
+		<script src="scripts/menu.js"></script>
 		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	</body>
