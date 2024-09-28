@@ -73,3 +73,47 @@ a:hover {
 	width: 80vw;
 	height: 100vh;
 }
+
+.announcement {
+	width: 100vw;
+	height: 100vh;
+
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	background-color: rgba(0, 0, 0, 0.4);
+
+	.center {
+		min-width: 300px;
+		max-width: 700px;
+		padding: 4rem;
+		border-radius: 20px;
+		height: fit-content;
+
+		background-color: white;
+		color: black;
+
+		* {
+			text-align: justify;
+			text-align-last: center;
+		}
+		
+		h1 {
+			text-align: center;
+			font-size: 64px;
+		}
+
+		button {
+			padding: 1rem 1.5rem;
+			text-transform: uppercase;
+			transition: 150ms ease;
+			cursor: pointer;
+			border: none;
+		}
+
+		button:hover {
+			background-color: var(--green);
+			transform: scale(1.05);
+		}
+	}
+}
