@@ -443,6 +443,8 @@ nav {
 		}
 
 		.text {
+			min-height: fit-content;
+
 			img {
 				@media screen and (min-width: 1400px) {
 					display: none;
@@ -477,6 +479,7 @@ nav {
 		gap: 2rem;
 		width: 80vw;
 		flex-wrap: wrap;
+		height: fit-content;
 
 		.card {
 			width: 300px;
