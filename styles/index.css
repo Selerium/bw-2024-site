@@ -93,6 +93,7 @@ nav {
 	}
 
 	.center {
+		height: fit-content;
 		width: 40%;
 		justify-content: flex-start;
 		
@@ -109,6 +110,13 @@ nav {
 			}
 		}
 
+		@media screen and (max-height: 800px) {
+			width: 100%;
+
+			h1, p {
+				text-align: center;
+			}
+		}
 	}
 
 	img {
@@ -130,6 +138,10 @@ nav {
 		@media screen and (max-width: 600px) {
 			display: none;
 		}
+
+		@media screen and (max-height: 800px) {
+			display: none;
+		}
 	}
 }
 
@@ -137,8 +149,14 @@ nav {
 	background-color: var(--green);
 	width: 100vw;
 	min-height: 100vh;
+	height: fit-content;
 
 	color: white;
+
+	.window {
+		height: fit-content;
+		padding: 1rem 0;
+	}
 
 	img {
 		border-radius: 4rem;
@@ -178,6 +196,26 @@ nav {
 	height: fit-content;
 	
 	color: white;
+
+	.window {
+		height: fit-content;
+		box-sizing: border-box;
+
+		.info {
+			box-sizing: border-box;
+			
+			p {
+				font-size: 22px;
+			}
+
+			a {
+				ion-icon {
+					width: 86px;
+					height: 86px;
+				}
+			}
+		}
+	}
 
 	.window img {
 		max-width: 40vw;
@@ -298,7 +336,8 @@ nav {
 
 	.images {
 		width: 45%;
-		height: 60vh;
+		min-height: 60vh;
+		height: fit-content;
 
 		display: grid;
 		grid-template-columns: 50% 50%;
@@ -390,6 +429,7 @@ nav {
 
 	.main-info {
 		height: 60%;
+		min-height: fit-content;
 		width: 80vw;
 	
 		display: grid;
@@ -429,8 +469,8 @@ nav {
 				display: none;
 			}
 		}
-
 	}
+
 	.cards {
 		display: flex;
 		justify-content: center;
@@ -452,6 +492,10 @@ nav {
 				@media screen and (max-width: 600px) {
 					font-size: 28px;
 				}
+			}
+
+			p {
+				text-align: center;
 			}
 		}
 
@@ -656,6 +700,7 @@ nav {
 			}
 
 			a {
+				font-size: 18px;
 				width: 45%;
 				box-sizing: border-box;
 				text-align: center;
