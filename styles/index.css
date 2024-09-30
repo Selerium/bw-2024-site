@@ -431,7 +431,7 @@ nav {
 		height: 60%;
 		min-height: fit-content;
 		width: 80vw;
-	
+
 		display: grid;
 		grid-template-columns: 50% auto;
 		align-items: center;
@@ -440,6 +440,7 @@ nav {
 
 		@media screen and (max-width: 1400px) {
 			grid-template-columns: auto;
+			height: 400px;
 		}
 
 		.text {
